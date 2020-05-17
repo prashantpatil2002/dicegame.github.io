@@ -1,4 +1,4 @@
- 
+function winner(){
 var random1 = Math.floor(Math.random()*6)+1;
 var image = "dice" + random1 +".png";
 var select = document.querySelectorAll("img")[0].setAttribute("src",image);
@@ -15,6 +15,6 @@ else{
     document.getElementById("h").innerHTML =  "IT'S   A   DRAW!! LET'S PLAY AGAIN";
 
 }
-document.getElementById("chnc").innerHTML = i;
  
  
+}
